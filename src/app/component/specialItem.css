@@ -1,0 +1,26 @@
+.special .tab-pane.active {
+    -webkit-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.special .details h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.special .details p {
+    color: #aaaaaa;
+}
+
+.special .details p:last-child {
+    margin-bottom: 0;
+}
+
+.circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  
