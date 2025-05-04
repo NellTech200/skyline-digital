@@ -42,7 +42,7 @@ export default function About() {
                     </ul>
 
                     <p>
-                    At Skyline Digital, we simplify the digital world to spark transformation. With the right tools and clear guidance, anyone can rise, create, and thrive in today’s digital age.
+                    At Skyline Digital, we simplify the digital world to spark transformation. With the right tools and clear guidance, anyone can rise, create, and thrive in today&apos;s digital age.
                     </p>
                 </div>
             </div>
