@@ -26,9 +26,9 @@ export default function Nav() {
   };
 
   const handleScrollTo = (section: string) => {
-    const header: HTMLElement = document.querySelector('#header')!;
+    const header = document.querySelector('#header') as HTMLElement;
     const offset = header.offsetHeight;
-    const targetEl: HTMLElement = document.querySelector('#' + section)!;
+    const targetEl = document.querySelector('#' + section) as HTMLElement;
 
     if (pathname === '/') {
       const elementPosition = targetEl.offsetTop;
@@ -47,9 +47,9 @@ export default function Nav() {
     setNavList(
       navList.map((nav) => {
         nav.active = false;
-        const targetSection: HTMLElement = document.querySelector(
+        const targetSection = document.querySelector(
           '#' + nav.target
-        )!;
+        ) as HTMLElement;
 
         if (
           targetSection &&
